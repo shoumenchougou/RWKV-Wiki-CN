@@ -31,6 +31,7 @@ section.cover blockquote {
     line-height: 2rem;
   }
   .markdown-section p a,
+  .markdown-section td a,
   .markdown-section ul a, 
   .markdown-section ol a {
     text-decoration: none; /* 删除默认的下划线 */

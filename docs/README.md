@@ -1,4 +1,3 @@
-## RWKV 语言模型
 
 RWKV（读作 RWaKuV）是一种具有 GPT 级大型语言模型（LLM）性能的 RNN，也可以像 GPT Transformer 一样直接训练（可并行化）。
 
@@ -9,20 +8,25 @@ RWKV 结合了 RNN 和 Transformer 的最佳特性 - 出色的性能、快速的
 - [Discord 论坛](https://discord.gg/bDSBUMeFpc)
 - [HF Gradio](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-2)
 
-## RWKV 架构论文
+## RWKV 架构/论文
 
-[![RWKV 论文封面](./img/RWKV-paper.png)](https://arxiv.org/abs/2305.13048)
+[![RWKV 论文封面](./img/RWKV-paper.png ':size=700')](https://arxiv.org/abs/2305.13048)
+
 - [arXiv (2305.13048) 论文](https://arxiv.org/abs/2305.13048)
+
+RWKV 模型的最新版本是 [RWKV-6](https://huggingface.co/BlinkDL/rwkv-6-world)，架构图如下：
+
+![image](./_media/rwkv-x060.jpg ':size=600')
 
 ## 当前版本状态
 
 | 版本 | v4 - Raven | v4 - Dove | v5 - Eagle | v6 - Finch |
 |---|---|---|---|---|
-| 论文 | 🎓[论文在 EMNLP 2023 获得接受](https://arxiv.org/abs/2305.13048) | （无架构更改） | 🔧 稳定（当前版本） | 🧪 原型 |
-| 总体状态 | 🌚 EOL - 建议使用 v5 世界 | 🌚 EOL - 建议使用 v5 世界 | ✅ 通用可用性 | 🧪 早期训练 |
+| 论文 | 🎓[论文在 EMNLP 2023 中发表](https://arxiv.org/abs/2305.13048) | （无架构更改） | 🔧 稳定（当前版本） | 🧪 训练阶段 |
+| 总体状态 | 🌚 EOL - 建议使用 v5 世界 | 🌚 EOL - 建议使用 v5 世界 | ✅ 稳定版本 | 🧪 训练中 |
 | 0.4B 模型 | [完全训练 : rwkv-pile-430m](https://huggingface.co/RWKV/rwkv-4-430m-pile) | [完全训练](https://huggingface.co/RWKV/rwkv-4-world-430m) | ✅ [完全训练](https://huggingface.co/BlinkDL/rwkv-5-world/blob/main/RWKV-5-World-0.4B-v2-20231113-ctx4096.pth) | 🧪 早期训练 |
 | 1.5B 模型 | [完全训练 : rwkv-raven-1b5](https://huggingface.co/RWKV/rwkv-raven-1b5) | [完全训练](https://huggingface.co/RWKV/rwkv-4-world-1b5) | ✅ [完全训练](https://huggingface.co/BlinkDL/rwkv-5-world/blob/main/RWKV-5-World-1B5-v2-20231025-ctx4096.pth) | ✅ [完全训练](https://huggingface.co/BlinkDL/rwkv-6-world/blob/main/RWKV-x060-World-1B6-v2-20240208-ctx4096.pth) |
-| 3B 模型 | [完全训练 : rwkv-raven-3b](https://huggingface.co/RWKV/rwkv-raven-3b) | [完全训练](https://huggingface.co/RWKV/rwkv-4-world-3b) | ✅  [完全训练](https://huggingface.co/BlinkDL/rwkv-5-world/blob/main/RWKV-5-World-3B-v2-20231118-ctx16k.pth) | 🧪 早期训练 |
+| 3B 模型 | [完全训练 : rwkv-raven-3b](https://huggingface.co/RWKV/rwkv-raven-3b) | [完全训练](https://huggingface.co/RWKV/rwkv-4-world-3b) | ✅  [完全训练](https://huggingface.co/BlinkDL/rwkv-5-world/blob/main/RWKV-5-World-3B-v2-20231118-ctx16k.pth) | ✅ [完全训练](https://huggingface.co/BlinkDL/rwkv-6-world/blob/main/RWKV-x060-World-3B-v2-20240228-ctx4096.pth)  |
 | 7B 模型 | [完全训练 : rwkv-raven-7b](https://huggingface.co/RWKV/rwkv-raven-7b) | [完全训练](https://huggingface.co/RWKV/rwkv-4-world-7b) | ✅  [完全训练](https://huggingface.co/RWKV/v5-Eagle-7B/blob/main/RWKV-v5-Eagle-World-7B-v2-20240128-ctx4096.pth) | ... |
 | 14B 模型 / 7B 2T 模型 | [完全训练 : rwkv-raven-14b](https://huggingface.co/RWKV/rwkv-raven-14b) | 未计划 | 计划中 | ... |
 | 8x7B MoE 模型 | 未计划 | 未计划 | 计划中 | ... |
@@ -62,6 +66,21 @@ RWKV 作为一个开源项目，得益于 Stability AI、EleutherAI 和其他贡
 
 同时，我们也感谢在较小的实验、微调和各种类型的模型上努力的 RWKV 贡献者们，特别是对于那些因运行失败而从未公开发布的模型。
 
+## RWKV 社区成员如何交流？
+
+我们拥有 [Discord 频道](https://discord.gg/bDSBUMeFpc)，同时也有其他 QQ 交流群：
+
+- ChatRWKV 技术研发群：325154699
+- RWKV 技术讨论群：224287095
+- ChatRWKV水和机器人群：597996773
+  
+以下是一些由 RWKV 开源社区成员或爱好者组建的 Q 群，用于 RWKV 相关项目的讨论：
+
+- RWKV第三方微调/训练/lora综合群：439087067
+- AI00_Server for RWKV 群：30920262
+- rwkv runner 懒人包交流群：818930736
+
+
 ## RWKV 社区术语
 
 - **RWKV** - 模型架构本身，代码可在 [https://github.com/BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) 找到
@@ -72,9 +91,9 @@ RWKV 作为一个开源项目，得益于 Stability AI、EleutherAI 和其他贡
 ## 我应该使用哪些 RWKV 模型？
 
 - 对于大多数用例，您应该使用预训练的、微调的 7B World 模型：
-    - [模型文件链接](https://huggingface.co/BlinkDL/rwkv-4-world/blob/main/RWKV-4-World-7B-v1-20230626-ctx4096.pth) 
-    - [HF 仓库链接](https://huggingface.co/BlinkDL/rwkv-4-world)
-- 在特定情况下，您可能会发现旧的（数据集较小）但更大的 Raven 模型，在某些特定基准测试中表现更好。当 14B World 模型准备就绪时，它将在所有用例中替换 Raven 模型。
-    - [HF 仓库链接](https://huggingface.co/BlinkDL/rwkv-4-raven)
+    - [RWKV-5-7B-World 模型下载链接](https://huggingface.co/BlinkDL/rwkv-5-world/blob/main/RWKV-5-World-7B-v2-20240128-ctx4096.pth) 
+    - [Hugging Face 仓库链接](https://huggingface.co/BlinkDL/rwkv-5-world)
+- 在特定情况下，您可能会发现旧的（数据集较小）但更大的 Raven 模型，在某些特定基准测试中表现更好。注意：当 14B World 模型准备就绪时，它将在所有用例中替换 Raven 模型。
+    - [Hugging Face 仓库链接](https://huggingface.co/BlinkDL/rwkv-4-raven)
 - 如果您想对一个非常特定的用例去微调模型，但没有任何现有的指令调整，您可能会发现 Pile 模型更有用（很少见，在大多数用例中，微调的 World 或 Raven 模型表现最好）。
-    - [HF 仓库链接](https://huggingface.co/BlinkDL/rwkv-4-pile-14b)
+    - [Hugging Face 仓库链接](https://huggingface.co/BlinkDL/rwkv-4-pile-14b)
