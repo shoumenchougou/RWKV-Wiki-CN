@@ -16,7 +16,7 @@ RWKV 结合了 RNN 和 Transformer 的最佳特性 - 出色的性能、快速的
 [![RWKV 论文封面](./docs/img/RWKV-paper.png)](https://arxiv.org/abs/2305.13048)
 
 - [arXiv (2305.13048) 论文](https://arxiv.org/abs/2305.13048)
-- 
+  
 RWKV 模型的最新版本是 [RWKV-6](https://huggingface.co/BlinkDL/rwkv-6-world)，架构图如下：
 
 ![image](./docs/_media/rwkv-x060.jpg ':size=600')
