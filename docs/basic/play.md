@@ -69,14 +69,14 @@
 - [Raven](https://huggingface.co/BlinkDL/rwkv-4-raven/tree/main)
 
 ### 基础模型下载
+
 - [Pile 7B](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
 - [Pile 14B](https://huggingface.co/BlinkDL/rwkv-4-pile-14b)
 - [PilePlus 模型](https://huggingface.co/BlinkDL/rwkv-4-pileplus)
-- [RWKV World](https://huggingface.co/BlinkDL/rwkv-4-world)
+- [RWKV World](https://huggingface.co/BlinkDL/rwkv-5-world)
 
-::: tip
-强烈建议尝试 raven 指令模型，除非你熟悉使用基础模型进行少量提示。
-:::
+
+> 强烈建议尝试 raven 指令模型，除非你熟悉如何使用基础模型进行少量提示。
 
 ### RWKV.cpp/RWKV.cpp cuda项目
 
@@ -86,7 +86,6 @@
 - [RWKV-cpp-cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda)
 
 这些项目旨在本地运行，无需 python 或 huggingface，并可分别在 CPU 或 GPU（或两者）上运行。
-
 
 > 尽管名字中有"cuda"，但事实上 rwkv-cpp-cuda 也支持 vulkan，这意味着它可以在 AMD GPU 上运行。
 
@@ -103,6 +102,7 @@
 ### RWKV 主仓库
 
 RWKV 主仓库可以在这里找到，使用 v4neo 运行当前模型：
+
 - [RWKV](https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v4neo)
 
 

@@ -1,7 +1,5 @@
 ## Fine tuning with LoRa
 
-
-
 > 💡 如果你打算用 LoRa 对 RWKV 进行微调，首先得明确自己在做什么。
 > 
 > 如果你对 RWKV 不熟悉，建议先玩玩基础模型，再尝试用 LoRa 进行微调。
