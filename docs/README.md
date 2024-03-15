@@ -1,3 +1,4 @@
+![RWKV raven avartar](./img/rwkv-avartar-256p.png)
 
 RWKV（读作 RWaKuV）是一种具有 GPT 级大型语言模型（LLM）性能的 RNN，也可以像 GPT Transformer 一样直接训练（可并行化）。
 
