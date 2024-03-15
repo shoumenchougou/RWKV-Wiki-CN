@@ -11,7 +11,7 @@ RWKV 结合了 RNN 和 Transformer 的最佳特性 - 出色的性能、快速的
 
 ## RWKV 架构论文
 
-[![RWKV 论文封面](./img/RWKV-paper.png)](https://arxiv.org/abs/2305.13048)
+[![RWKV 论文封面](./docs/img/RWKV-paper.png)](https://arxiv.org/abs/2305.13048)
 - [arXiv (2305.13048) 论文](https://arxiv.org/abs/2305.13048)
 
 ## 当前版本状态
@@ -48,8 +48,8 @@ RWKV 结合了 RNN 和 Transformer 的最佳特性 - 出色的性能、快速的
 RWKV 作为一个开源项目，得益于 Stability AI、EleutherAI 和其他贡献者提供的大量 GPU 计算和研究时间的支持。
 
 <div class="sponsor_logos">
-    <a href="https://stability.ai/" target="_blank"><img src="./img/sponsor/Stability-AI.jpg" width="100px"/></a>
-    <a href="https://www.eleuther.ai/" target="_blank"><img src="./img/sponsor/EleutherAI_logo.svg.png" width="100px"/></a>
+    <a href="https://stability.ai/" target="_blank"><img src="./docs/img/sponsor/Stability-AI.jpg" width="100px"/></a>
+    <a href="https://www.eleuther.ai/" target="_blank"><img src="./docs/img/sponsor/EleutherAI_logo.svg.png" width="100px"/></a>
 </div>
 
 ---

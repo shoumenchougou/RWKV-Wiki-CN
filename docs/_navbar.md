@@ -1,10 +1,5 @@
 <!-- _navbar.md -->
 
-* **💡 关于 RWKV**
+* [RWKV GitHub 仓库](https://github.com/BlinkDL/RWKV-LM)
 
-  * [🔗 了解 RWKV ](https://www.rwkv.com/)
-  * [⬇️ 模型下载](https://huggingface.co/BlinkDL/rwkv-5-world)
-
-* **🌐 Translations**
-  * [:cn:中文](README.md)
-  * [:us: en-US](./en-US/README-en.md)
+* [Hugging Face Integration](https://huggingface.co/docs/transformers/model_doc/rwkv)
