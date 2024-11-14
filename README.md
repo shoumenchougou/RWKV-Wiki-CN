@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> 
+> 由于 [rwkv.cn](https://rwkv.cn/) 已存在最新的 RWKV 中文文档，此仓库已不再更新。
+>
+> 请访问 <[https://rwkv.cn/docs](https://rwkv.cn/docs)>
+---
+
 ![RWKV raven avartar](./docs/img/rwkv-avartar-256p.png)
 
 # RWKV 中文 Wiki
